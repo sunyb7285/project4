@@ -1,85 +1,69 @@
-* {
-  padding: 0%;
-  margin: 0%;
-  box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+*{
+    padding: 0%;
+    margin: 0%;
+      font-family: Arial, Helvetica, sans-serif;
 
 }
-.background {
-  background-image: url("./accest/image/bacl.jpeg");
-  height: 100vh;
+body{
+    background-image: url(./accest/image/bacl.jpeg);
+    }
+.hero{
+    
+    /* width: 10px; */
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 
-  width: 100%;
-  display: flex;
-  justify-content: center;
 
-  align-items: center;
-  background-position: center;
-  position: relative;
-  
-}
-
-.card {
-  background-image: url(./accest/image/abstract-background-vertical-with-colorful-shape_361591-4081.jpg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  width: 400px;
-  height: 500px;
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  box-shadow: 8px  6px 8px rgb(0, 0, 0);
- 
-}
-.form {
-  display: flex;
-  flex-direction: column;
-  
-}
-.card-header {
-  width: 250px;
-  font-size: 2rem;
-  height: 42x;
-  text-align: center;
-}
-input {
-  height: 20px;
-}
-.we{
-  text-decoration: none;
-  position: relative;
-  bottom: 2px;
-  color: black;
-  border: 1px solid gray;
-  background-color: gray;
-  border-radius: 10px;
-  text-align: center;
-  padding: 5px;
 
 }
-hr {
-  position: relative;
-  bottom: 25px;
+img{
+    height: 400px;
+    width: 300px;
+    box-shadow: 5px 5px 5px rgb(131, 118, 118);
+    border-radius: 20px;
 }
-.we:hover {
-  color: white;
-  background-color: black;
+.main-con{
+
+position: absolute;
+display: flex;
+flex-direction: column;
+align-items: center;
+/* top: 200px; */
+
+
+
+    
+
+
 }
-
-.next{
-  text-decoration: none;
-  /* border: 1px solid; */
-  width: 10px;
-  height: 1px;
-  padding: 2px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
- bottom: 90px;
-
-  
+input{
+    height: 20px;
+    width: 170px;
+    text-align: center;
+}
+hr{
+    width: 200px;
+    /* color: black; */
+    /* height: px; */
+    /* background-color: black; */
+}
+a{
+    text-decoration: none;
+    color: black;
+    /* border: 1px solid; */
+    padding: 10px;
+    border-radius: 20px;
+    background-color: darkslategray;
+    color: aliceblue;
+    width: 60px;
+    text-align: center;
+}
+a:hover{
+    background-color: bisque;
+    color: antiquewhite;
+    color: black;
+    
 }
